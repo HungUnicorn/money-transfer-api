@@ -22,10 +22,10 @@ In this demo, a fake account client is used.
 
 ## API Reference
 - POST /api/v1/transfers
-- GET api/v1/transactions/{transactionId}
+- GET /api/v1/transactions/{transactionId}
 
 ### Demo usage
-POST /api/v1/transfers
+- POST /api/v1/transfers
 ```json
 {
 	"requestId": "22222",
@@ -47,7 +47,7 @@ and you will see the response:
 
 You can find the transaction by:
 
-GET /api/v1/transactions/dd6570db-c740-414b-92cb-75ecc8c63528
+- GET /api/v1/transactions/dd6570db-c740-414b-92cb-75ecc8c63528
  
 and receive the following response:
 ```json
