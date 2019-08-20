@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: money-transfer-api
+
+jackson:
+  serialization:
+    writeDatesAsTimestamps: false
+
+
+transaction:
+  execution:
+    job:
+      rate: 7s
+      stream:
+        limit: 7
